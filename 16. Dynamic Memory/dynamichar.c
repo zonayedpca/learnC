@@ -3,7 +3,7 @@
 
 int main() {
   char *name;
-  name = malloc(sizeof(name) * 20);
+  name = malloc(sizeof(char) * 20);
   if(name) {
     printf("Enter your name: ");
     gets(name);
