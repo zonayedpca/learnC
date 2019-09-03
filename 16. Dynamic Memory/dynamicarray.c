@@ -8,6 +8,7 @@ int main() {
     printf("Enter your name: ");
     gets(arr);
     printf("My name is %s\n", arr);
+    free(arr);
   } else {
     printf("Something went wrong...\n");
   }
